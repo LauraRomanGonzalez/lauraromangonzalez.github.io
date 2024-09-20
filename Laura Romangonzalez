@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional CSS -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Laura Roman-Gonzalez's Porfolio!</h1>
+    </header>
+    <main>
+        <p>Hello! I'm Laura Roman-Gonzalez. This is my personal webpage.</p>
+        <p>Here you can find information about my projects, interests, and more.</p>
+    </main>
+    <footer>
+        <p>Contact me at lroma002@odu.edu.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+git add index.html styles.css
+git commit -m "Initial commit"
+git push origin main
